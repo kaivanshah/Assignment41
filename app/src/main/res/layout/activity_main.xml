@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kaivanshah.assignment41.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/btn_Asc"   android:text="@string/Ascending"  />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/btn_Dsc"  android:text="@string/Descending"
+
+        android:layout_alignParentEnd="true" />
+
+    <ListView android:id="@+id/lv_List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_below="@id/btn_Asc" android:divider="@color/colorPrimaryDark"  android:dividerHeight="1dp">
+    </ListView>
+
+
+</RelativeLayout>
